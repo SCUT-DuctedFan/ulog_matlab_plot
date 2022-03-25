@@ -15,7 +15,7 @@ clc;
 % to 
 % command = ['!your ulog2csv path' ulgFileName '.ulg'];
 % and 
-% ulgFileName = 'log_8_2021-5-20-11-52-08'; 
+% ulgFileName = '00_41_22'; 
 % to 
 % ulgFileName = 'your log name'; 
 
