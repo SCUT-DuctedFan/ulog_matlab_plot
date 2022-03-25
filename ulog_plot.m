@@ -27,7 +27,7 @@ r2d=180/pi;
 %%
 ulgFileName = '00_41_22'; % the ulog file name 
 
-if exist([ulgFileName '.mat'])
+if 0%exist([ulgFileName '.mat'])
     load(ulgFileName,'log');
 else
 
@@ -39,7 +39,7 @@ else
 	eval(command);
     log.data = csv_topics_to_d(ulgFileName);
     log.FileName = ulgFileName;
-    log.matulog_version = 1.0;
+    log.version = 1.0;
     log.params = '';
     log.messages = '';
     log.info = '';
